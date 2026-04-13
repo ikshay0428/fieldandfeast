@@ -1,3 +1,4 @@
+
 /* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
@@ -31,6 +32,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -76,10 +78,10 @@ header {
 }
 
 .logo-container img {
-  width: 120px;
-  max-width: 40%;
+  width: 180px;
+  max-width: 80%;
   height: auto;
-  padding: 20px 0;
+  padding: 30px 0 10px;
 }
 
 h1 {
@@ -224,7 +226,7 @@ footer {
   }
 
    .logo-container img {
-    width: 150px;
+    width: 220px;
   }
 
   .gallery-grid {
@@ -250,7 +252,7 @@ footer {
 /* MEDIA QUERY (large) */
 @media (min-width: 900px) {
     .logo-container img {
-    width: 180px;
+    width: 260px;
   }
   
     .gallery-grid {
@@ -280,7 +282,7 @@ footer {
     margin: auto;
   }
    .logo-container img {
-    width: 200px;
+    width: 300px;
   }
   
   h1 {
